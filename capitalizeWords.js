@@ -1,6 +1,7 @@
-const capitalizeWords = sentence =>
-  sentence
+function capitalizeWords(sentence) {
+  return sentence
     .split(" ")
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
-    console.log(capitalizeWords("electronics and communication engineering"));
+}
+console.log(capitalizeWords("javascript functions practice"));
