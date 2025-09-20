@@ -1,6 +1,4 @@
-const stringReverse = (str) => {
-  let revStr = str.split("").reverse().join("");
-  return revStr;
-};
-
-console.log(stringReverse("Electronics"));
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
+console.log(reverseString("Electronics")); 
