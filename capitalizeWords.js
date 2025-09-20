@@ -4,4 +4,4 @@ function capitalizeWords(sentence) {
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
 }
-console.log(capitalizeWords("javascript functions practice"));
+console.log(capitalizeWords("elctronics and communication engineering"));
