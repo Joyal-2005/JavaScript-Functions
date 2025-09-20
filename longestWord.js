@@ -1,7 +1,11 @@
-const longestWord = sentence => {
-  const words = sentence.split(" ");
-  return words.reduce((longest, word) =>
-    word.length > longest.length ? word : longest, ""
-  );
-};
-console.log(longestWord("Practice makes a programmer better"));
+function longestWord(sentence) {
+  let words = sentence.split(" ");
+  let longest = "";
+  for (let word of words) {
+    if (word.length > longest.length) {
+      longest = word;
+    }
+  }
+  return longest;
+}
+console.log(longestWord("practice make anything easier"));
