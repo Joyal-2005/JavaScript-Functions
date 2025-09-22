@@ -1,3 +1,3 @@
-const words = ["apple", "banana", "grapes", "guva"];
-const lengths = words.map(word => word.length);
-console.log(lengths); 
+const numbers = [1, 2, 6,3, 4, 8];
+const squares = numbers.map(num => num * num);
+console.log(squares); 
